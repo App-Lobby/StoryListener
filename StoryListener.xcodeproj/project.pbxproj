@@ -13,6 +13,8 @@
 		54C382AC26449992003093F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C382AB26449992003093F0 /* Preview Assets.xcassets */; };
 		54C382AE26449992003093F0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C382AD26449992003093F0 /* Persistence.swift */; };
 		54C382B126449992003093F0 /* StoryListener.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54C382AF26449992003093F0 /* StoryListener.xcdatamodeld */; };
+		54C382BA264580B3003093F0 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C382B9264580B3003093F0 /* AudioManager.swift */; };
+		54C382BD26458419003093F0 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C382BC26458419003093F0 /* SpeechManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		54C382AD26449992003093F0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		54C382B026449992003093F0 /* StoryListener.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StoryListener.xcdatamodel; sourceTree = "<group>"; };
 		54C382B226449992003093F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C382B9264580B3003093F0 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		54C382BC26458419003093F0 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				54C382A42644998E003093F0 /* StoryListenerApp.swift */,
 				54C382A62644998E003093F0 /* ContentView.swift */,
+				54C382BC26458419003093F0 /* SpeechManager.swift */,
 				54C382A826449992003093F0 /* Assets.xcassets */,
 				54C382AD26449992003093F0 /* Persistence.swift */,
+				54C382B9264580B3003093F0 /* AudioManager.swift */,
 				54C382B226449992003093F0 /* Info.plist */,
 				54C382AF26449992003093F0 /* StoryListener.xcdatamodeld */,
 				54C382AA26449992003093F0 /* Preview Content */,
@@ -91,6 +97,8 @@
 			dependencies = (
 			);
 			name = StoryListener;
+			packageProductDependencies = (
+			);
 			productName = StoryListener;
 			productReference = 54C382A12644998E003093F0 /* StoryListener.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +126,8 @@
 				Base,
 			);
 			mainGroup = 54C382982644998E003093F0;
+			packageReferences = (
+			);
 			productRefGroup = 54C382A22644998E003093F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,8 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				54C382AE26449992003093F0 /* Persistence.swift in Sources */,
+				54C382BD26458419003093F0 /* SpeechManager.swift in Sources */,
 				54C382B126449992003093F0 /* StoryListener.xcdatamodeld in Sources */,
 				54C382A72644998E003093F0 /* ContentView.swift in Sources */,
+				54C382BA264580B3003093F0 /* AudioManager.swift in Sources */,
 				54C382A52644998E003093F0 /* StoryListenerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
