@@ -9,4 +9,4 @@ To save the stories in local , I used **Core Data** (apples framework) . You can
 **Speech** : A Framework to handle the speech recognition in swift <br />
 **Core** **Data** : A Framework to persist the data in local <br />
 
-![Alt Text](https://github.com/myawesomehub/StoryListener/blob/main/ezgif.com-gif-maker%20(2).gif)
+![Alt Text](https://github.com/myawesomehub/newrepp/blob/main/ezgif.com-gif-maker%20(2).gif)
